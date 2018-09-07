@@ -1,0 +1,9 @@
+{
+  "name": "@delwiv/eslint-config",
+  "version": "1.0.0",
+  "description": "Oyst team user eslint configuration",
+  "main": "index.js",
+  "author": "delwiv",
+  "license": "MIT",
+  "private": true
+}
