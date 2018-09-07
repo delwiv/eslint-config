@@ -4,6 +4,5 @@
   "description": "Oyst team user eslint configuration",
   "main": "index.js",
   "author": "delwiv",
-  "license": "MIT",
-  "private": true
+  "license": "MIT"
 }
