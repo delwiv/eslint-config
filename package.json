@@ -1,0 +1,38 @@
+{
+  "name": "@delwiv/eslint-config",
+  "version": "0.1.1",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "delwiv",
+  "license": "ISC",
+  "exports": {
+    "react": "./.eslintrc.react.js",
+    "node": "./.eslintrc.node.js"
+  },
+  "description": "Eslint node and react configs using standard and prettier",
+  "prettier": {
+    "printWidth": 80,
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true
+  },
+  "peedDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.3",
+    "eslint-plugin-prettier": "^5.2.1"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "prettier-plugin-tailwindcss": "^0.6.5"
+  }
+}
